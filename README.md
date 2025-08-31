@@ -1,12 +1,12 @@
-# rapport-d-analyse-de-sécurité-d-un-site-web
- 🔒 Dippu-Tech Inc. – Rapport d’Analyse de Sécurité  
+# rapport d'analyse de sécurité d'un site web
+ 🔒 HexanovaTI-Tech Inc. – Rapport d’Analyse de Sécurité  
 **Projet : Modernisation d’un site web d’entreprise vers une plateforme e-commerce**  
-**Auteur : Dippu Claude Cyrille – Analyste en Cybersécurité**  
+**Auteur : HexanovaTI – Analyste en Cybersécurité**  
 **Date : 25 novembre – 02 décembre 2024**  
 **Classification : CONFIDENTIEL**  
 
  ### Contexte du projet
-L’entreprise **Dippu-Tech Inc.** a initié la refonte de son site vitrine en une **plateforme e-commerce** intégrant :  
+L’entreprise **HexanovaTI .** a initié la refonte de son site vitrine en une **plateforme e-commerce** intégrant :  
 - Gestion des commandes et paiements en ligne  
 - Gestion des profils clients incluant données personnelles et financières sensibles  
 - Intégration des données dans une infrastructure **infonuagique SharePoint**  
