@@ -4,7 +4,8 @@
 **Auteur : Dippu Claude Cyrille – Analyste en Cybersécurité**  
 **Date : 25 novembre – 02 décembre 2024**  
 **Classification : CONFIDENTIEL**  
- Contexte du projet
+
+ ### Contexte du projet
 L’entreprise **Dippu-Tech Inc.** a initié la refonte de son site vitrine en une **plateforme e-commerce** intégrant :  
 - Gestion des commandes et paiements en ligne  
 - Gestion des profils clients incluant données personnelles et financières sensibles  
@@ -14,28 +15,28 @@ Cette transformation représente une opportunité stratégique, mais expose éga
 
 ---
 
-Objectifs de l’analyse
+### Objectifs de l’analyse
 - Évaluer les risques de sécurité liés à la modernisation du site web  
 - Identifier les vulnérabilités critiques dans l’architecture et les processus  
 - Fournir des recommandations concrètes à court, moyen et long terme  
 
 ---
 
-Portée (scope)
+### Portée (scope)
 ✅ Données sensibles clients (PII, informations financières)  
 ✅ Architecture technique et gestion des accès  
 ✅ Sécurité des transactions et conformité (ex : PCI-DSS)  
 ✅ Protection contre les cybermenaces  
 ✅ Conformité réglementaire  
 
-❌ Hors portée : aspects esthétiques, ergonomie, infrastructure physique interne.  
+Hors portée : aspects esthétiques, ergonomie, infrastructure physique interne.  
 
 ---
 
- Résultats de l’analyse
+ ### Résultats de l’analyse
 Estimation du niveau de risque global : ÉLEVÉ**  
 
-Principales anomalies identifiées
+### Principales anomalies identifiées
 1. Données sensibles stockées **sans chiffrement**  
 2. Transactions en ligne non conformes aux standards **PCI-DSS**  
 3. Site web basé sur une technologie **obsolète**, absence de HTTPS obligatoire  
@@ -46,7 +47,7 @@ Principales anomalies identifiées
 
 ---
 
- ✅ Recommandations
+ ### Recommandations
 
 Court terme (immédiat)
 - Implémentation du **chiffrement AES-256** des données sensibles  
@@ -57,7 +58,7 @@ Court terme (immédiat)
 - Conformité avec **PCI-DSS**  
 - MFA pour tous les comptes administratifs  
 
-Moyen terme (3 mois)
+### Moyen terme (3 mois)
 - Déploiement d’une solution **IAM (Identity & Access Management)**  
 - Élaboration d’un **Plan de Continuité des Activités (PCA)** et **Plan de Reprise après Sinistre (PRS)**  
 - Mise à jour régulière des systèmes et composants  
@@ -68,9 +69,7 @@ Moyen terme (3 mois)
 - Automatisation de la gestion des permissions utilisateurs  
 - Réalisation régulière de **tests de pénétration**  
 
----
-
- Compétences démontrées
+### Compétences démontrées
 - Analyse de risque et évaluation des menaces  
 - Gestion de la sécurité des données sensibles (PII, informations financières)  
 - Mise en conformité avec des standards de sécurité (**PCI-DSS**)  
@@ -86,15 +85,4 @@ Moyen terme (3 mois)
 - **Gestion des accès :** IAM, MFA, principe du moindre privilège  
 - **Infonuagique :** Microsoft SharePoint  
 - **Surveillance :** Journaux d’audit centralisés, détection comportementale  
-
----
-
-
-
-```mermaid
-flowchart TD
-    Client[Client Utilisateur] -->|Commandes & Paiements| Site[Site E-commerce]
-    Site --> DB[(Base de données chiffrée)]
-    Site --> Cloud[Infrastructure SharePoint]
-    Cloud --> Audit[Surveillance & Journaux]
 
