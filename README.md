@@ -57,6 +57,7 @@ Court terme (immédiat)
 - Réduction des permissions selon le **principe du moindre privilège**  
 - Conformité avec **PCI-DSS**  
 - MFA pour tous les comptes administratifs  
+---
 
 ### Moyen terme (3 mois)
 - Déploiement d’une solution **IAM (Identity & Access Management)**  
@@ -67,7 +68,9 @@ Court terme (immédiat)
 - Audits de sécurité récurrents  
 - Mise en place d’une **surveillance comportementale automatisée (IA)**  
 - Automatisation de la gestion des permissions utilisateurs  
-- Réalisation régulière de **tests de pénétration**  
+- Réalisation régulière de **tests de pénétration**
+  
+---
 
 ### Compétences démontrées
 - Analyse de risque et évaluation des menaces  
