@@ -97,4 +97,4 @@ garantir la sécurité des données, la satisfaction des utilisateurs et de réd
 - **Infonuagique :** Microsoft SharePoint  
 - **Surveillance :** Journaux d’audit centralisés, détection comportementale  
 
-# veillez noter que ce rapport n'est en aucun cas celui d'une entreprise réelle, il s'agit ici d'une simulation.
+## veillez noter que ce rapport n'est en aucun cas celui d'une entreprise réelle, il s'agit ici d'une simulation.
