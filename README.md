@@ -72,6 +72,14 @@ Court terme (immédiat)
   
 ---
 
+  ### Conclusion
+La modernisation du site web présente des risques significatifs liés à la confidentialité, à l'intégrité et à la
+disponibilité des données sensibles, mais ceux-ci sont gérables avec une réponse rapide et structurée. Au vu des
+recommandations proposées, un plan de remédiation doit être mis en place avant la mise en production afin de
+garantir la sécurité des données, la satisfaction des utilisateurs et de réduire le risque à un niveau acceptable.
+  
+---
+
 ### Compétences démontrées
 - Analyse de risque et évaluation des menaces  
 - Gestion de la sécurité des données sensibles (PII, informations financières)  
